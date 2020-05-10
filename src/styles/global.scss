@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+body {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+$oswald: "Oswald",
+sans-serif;
+$montserrat: "Montserrat",
+sans-serif;
+
+$black: #000000;
+$white: #ffffff;
+
+html {
+    scroll-behavior: smooth;
+}
+
+#___gatsby {
+    overflow: hidden;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "shew-start",
+  "private": true,
+  "description": "Just a lil start page.",
+  "version": "2.0.0",
+  "author": "Anthony Shew",
+  "scripts": {
+    "ngrok": "cd .. && ngrok http 3000",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "gatsby develop -p 3000",
+    "build": "gatsby build",
+    "serve": "gatsby serve -p 3000",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.21",
+    "gatsby-image": "^2.2.45",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sass": "^2.2.0",
+    "gatsby-plugin-sharp": "^2.4.13",
+    "gatsby-remark-images": "^3.1.50",
+    "gatsby-source-filesystem": "^2.1.57",
+    "gatsby-transformer-sharp": "^2.3.19",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
