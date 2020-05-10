@@ -2,7 +2,7 @@
   "name": "shew-start",
   "private": true,
   "description": "Just a lil start page.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Anthony Shew",
   "scripts": {
     "ngrok": "cd .. && ngrok http 3000",
