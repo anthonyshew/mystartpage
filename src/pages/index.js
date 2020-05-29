@@ -172,6 +172,7 @@ const Search = ({ ...props }) => {
           value={searchTerm}
           onChange={handleChange}
           autoComplete="off"
+          autoFocus
         />
         <input id="submit" type="submit" value="GOOGLE SMACK IT" />
       </form>
